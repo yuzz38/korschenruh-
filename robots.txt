@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /*?utm_
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&fbclid&yclid&gclid /
+
+# AI- и ответные поисковые системы (GEO)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: YandexAdditional
+Allow: /
+
+Sitemap: https://korschenruh.ru/sitemap.xml
